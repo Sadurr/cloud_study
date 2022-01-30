@@ -1,0 +1,2 @@
+//creating database - azure cli:
+az mysql server create --resource-group wsb_group --name sadurskidatabase --location eastus --admin-user filip_sadurski --admin-password AzurePa$$w0rd --sku-name GP_Gen5_2
