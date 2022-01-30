@@ -1,0 +1,13 @@
+//creating vm - azure cli:
+
+az group create --name wsb_group --location eastus
+
+az vm create \
+  --location eastus \
+  --resource-group wsb_group \
+  --name wsb_vm \
+  --size Standard_B1ls  \
+  --image Win2019Datacenter \
+  --public-ip-sku Standard \
+  --admin-username filip_sadurski \
+  --admin-password AzurePa$$w0rd
