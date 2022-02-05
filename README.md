@@ -43,5 +43,9 @@ Push container to Azure App Service
 
 Create New App service Plan:
 
+Choose:
+
     wsbplan
+Then:
+
     wsbwebapp
