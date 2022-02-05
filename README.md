@@ -1,6 +1,6 @@
-#Azure application
+# Azure application
 
-##Creating vm - azure cli:
+## Creating vm - azure cli:
 
 ```
 az group create --name wsb_group --location eastus
@@ -16,22 +16,22 @@ az vm create \
   --admin-password AzurePa$$w0rd
 ```
 
-##Creating database - azure cli:
+## Creating database - azure cli:
 
 ```
 az mysql server create --resource-group wsb_group --name sadurskidatabase --location eastus --admin-user filip_sadurski --admin-password AzurePa$$w0rd --sku-name GP_Gen5_2
 ```
 
-##Creating container registry
+## Creating container registry
 
-###azure cli:
+### azure cli:
 ```
 az group create --name wsb_group --location eastus
 az acr create --resource-group wsb_group \
   --name wsbregistry --sku Basic
 az acr login --name wsbregistry
 ```
-###vscode:
+### vscode:
 ```
 docker login wsbregistry.azurecr.io
 ```
