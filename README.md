@@ -36,9 +36,13 @@ az acr login --name wsbregistry
 docker login wsbregistry.azurecr.io
 ```
 Building docker image: 'wsbregistry.azurecr.io/cloud_study:latest'
+
 Push container to Azure App Service
+
 (right cick on image) -> Deploy image to Azure App Service
 
 Create New App service Plan:
+
   wsbplan
+  
   wsbwebapp
