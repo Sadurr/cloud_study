@@ -1,5 +1,9 @@
 # Azure application
 
+## Requirements:
+- WSL2
+- Visual Studio Code
+
 ## Creating vm - azure cli:
 
 ```
