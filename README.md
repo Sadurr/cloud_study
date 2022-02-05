@@ -55,8 +55,8 @@ Then:
     wsbwebapp
     
 ## More examples:
-- (https://github.com/Azure/build-vm-image)
-- (https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-sql/database/single-database-create-quickstart.md)
-- (https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/container-registry/container-registry-get-started-portal.md)
+- https://github.com/Azure/build-vm-image
+- https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-sql/database/single-database-create-quickstart.md
+- https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/container-registry/container-registry-get-started-portal.md
 
 
